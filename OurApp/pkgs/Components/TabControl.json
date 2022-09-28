@@ -905,7 +905,7 @@
       "Selected",
       "OnReset"
     ],
-    "LastModifiedTimestamp": "637999775911860641",
+    "LastModifiedTimestamp": "637999781618890385",
     "Name": "TabControl",
     "Rules": [
       {
@@ -1076,7 +1076,7 @@
   "IsPcfControl": false,
   "IsPremiumPcfControl": false,
   "IsWidgetTemplate": false,
-  "LastModifiedTimestamp": "637999775911860641",
+  "LastModifiedTimestamp": "637999781618890385",
   "Name": "d559913c99044a4889a1ea147f286e0c",
   "OverridableProperties": {},
   "SourceLibraryId": "ff6a474e-d7b3-4c75-8857-c1608cb9dd5d",
