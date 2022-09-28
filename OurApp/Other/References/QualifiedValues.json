@@ -1,0 +1,25 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_lh_problemreport_forms",
+      "Namespace": "Problem Reports (Forms)",
+      "Values": {
+        "Information": "727ee816-3123-4b83-b99f-f2c594d111d4"
+      }
+    },
+    {
+      "Kind": "default.cds_lh_building_forms",
+      "Namespace": "Buildings (Forms)",
+      "Values": {
+        "Information": "c4ccbddb-1deb-41b6-8da9-d3a29bfb7316"
+      }
+    },
+    {
+      "Kind": "default.cds_lh_department_forms",
+      "Namespace": "Departments (Forms)",
+      "Values": {
+        "Information": "0c3b3009-3803-4995-8bd0-53b2af91e6c2"
+      }
+    }
+  ]
+}

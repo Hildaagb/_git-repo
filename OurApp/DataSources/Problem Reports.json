@@ -1,0 +1,121 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "lh_problemreports",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "lh_problemreport",
+    "MaxGetRowsCount": 500,
+    "Name": "Problem Reports",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "Owner",
+      "bpf_lh_problemreport_new_problemresolutionprocess": "Problem resolution process",
+      "createdby": "Created By",
+      "createdon": "Created On",
+      "createdonbehalfby": "Created By (Delegate)",
+      "exchangerate": "Exchange Rate",
+      "importsequencenumber": "Import Sequence Number",
+      "lh_Assignto": "Assign to",
+      "lh_Building": "Building",
+      "lh_Department": "Department ",
+      "lh_details": "Details",
+      "lh_estimatedcost": "Estimated Cost",
+      "lh_estimatedcost_base": "Estimated Cost (Base)",
+      "lh_location": "Location",
+      "lh_photo": "Photo",
+      "lh_photoid": "lh_PhotoId",
+      "lh_problemreport_AsyncOperations": "System Jobs",
+      "lh_problemreport_BulkDeleteFailures": "Bulk Delete Failures",
+      "lh_problemreport_DuplicateBaseRecord": "Duplicate Records (lh_problemreport_DuplicateBaseRecord)",
+      "lh_problemreport_DuplicateMatchingRecord": "Duplicate Records (lh_problemreport_DuplicateMatchingRecord)",
+      "lh_problemreport_MailboxTrackingFolders": "Mailbox Auto Tracking Folders",
+      "lh_problemreport_PrincipalObjectAttributeAccesses": "Field Sharing",
+      "lh_problemreport_ProcessSession": "Process Sessions",
+      "lh_problemreport_QueueItems": "Queue Items",
+      "lh_problemreport_SyncErrors": "Sync Errors",
+      "lh_problemreportid": "Problem Report",
+      "lh_resolution": "Resolution",
+      "lh_resolvedon": "Resolved On",
+      "lh_title": "Title",
+      "modifiedby": "Modified By",
+      "modifiedon": "Modified On",
+      "modifiedonbehalfby": "Modified By (Delegate)",
+      "overriddencreatedon": "Record Created On",
+      "owningbusinessunit": "Owning Business Unit",
+      "owningteam": "Owning Team",
+      "owninguser": "Owning User",
+      "processid": "Process Id",
+      "stageid": "(Deprecated) Stage Id",
+      "statecode": "Status",
+      "statuscode": "Status Reason",
+      "timezoneruleversionnumber": "Time Zone Rule Version Number",
+      "transactioncurrencyid": "Currency",
+      "traversedpath": "(Deprecated) Traversed Path",
+      "utcconversiontimezonecode": "UTC Conversion Time Zone Code",
+      "versionnumber": "Version Number"
+    },
+    "PreferredName": "Problem Reports",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Problem Reports (Views)",
+    "Name": "_lh_problemreport_views",
+    "RelatedEntityName": "Problem Reports",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "067e2724-e478-4b4f-a588-92341bb93b88": "Problem Report Lookup View",
+      "83ee3e3c-22f6-ec11-82e7-00224856d7e8": "Resolved Problems",
+      "97750be5-b8ad-4459-914b-1a46b88c4592": "Problem Report Advanced Find View",
+      "ad191543-b947-4357-9d8c-84625364aa80": "Problem Report Associated View",
+      "b8d1962d-24e5-4c89-859b-eaa6e3aaaffc": "Inactive Problem Reports",
+      "dadb0df8-2cf6-ec11-82e7-00224856d7e8": "My Reports",
+      "f7dd10aa-145f-43a4-b824-84e9839655a8": "Active Problem Reports"
+    }
+  },
+  {
+    "DisplayName": "Status (Problem Reports)",
+    "Name": "lh_problemreport_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "Active",
+      "1": "Inactive"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Problem Reports"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Problem Reports",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "Status Reason (Problem Reports)",
+    "Name": "lh_problemreport_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "New",
+      "2": "Inactive",
+      "881860000": "Assigned",
+      "881860001": "In Progress",
+      "881860002": "Completed",
+      "881860003": "Won't fix"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Problem Reports"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Problem Reports",
+    "Type": "OptionSetInfo"
+  }
+]

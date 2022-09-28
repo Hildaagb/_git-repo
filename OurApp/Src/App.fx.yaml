@@ -1,0 +1,17 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =Set('My Tabs', Table( {
+        	Label: "My Reports",
+        	Screen: 'Main Screen',
+        	Icon: "",
+        	SelectedIcon:""
+        },
+        {
+        	Label: "New Report",
+        	Screen: 'New Reports Screen',
+        	Icon: "",
+        	SelectedIcon:""
+        }
+        ))
+

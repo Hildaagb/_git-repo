@@ -1,0 +1,22 @@
+[
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 2,
+    "LibraryId": "80ee1ae5-8e60-4eb2-a62f-5a86e939e8b6",
+    "LibraryLogicalName": "cr5e9_lamnahealthcaresharedcomponentsa_e7708",
+    "LibraryVersion": "2022-07-27T17:17:48Z",
+    "OriginalComponentDefinitionTemplateId": "219db696c0a3459f98d16b66cf1d5859",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2022-06-27T15:21:35.434+00:00"
+  },
+  {
+    "HasLibraryLogicalName": true,
+    "InstanceCount": 2,
+    "LibraryId": "80ee1ae5-8e60-4eb2-a62f-5a86e939e8b6",
+    "LibraryLogicalName": "cr5e9_lamnahealthcaresharedcomponentsa_e7708",
+    "LibraryVersion": "2022-07-27T17:17:48Z",
+    "OriginalComponentDefinitionTemplateId": "4048cb6122874940a860c279bb252d91",
+    "RefusedSourceLastTimeSaved": "0001-01-01T00:00:00",
+    "SourceLastTimeSaved": "2022-06-27T15:21:35.434+00:00"
+  }
+]

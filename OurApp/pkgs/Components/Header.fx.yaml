@@ -1,0 +1,23 @@
+Header As CanvasComponent:
+    Fill: =RGBA(0, 0, 0, 0)
+    Height: =50
+    Text: ="Text"
+    Width: =640
+    X: =0
+    Y: =0
+    ZIndex: =1
+
+    Label2 As label:
+        Align: =Center
+        BorderColor: =
+        Color: =
+        DisabledBorderColor: =RGBA(246, 88, 16, 1)
+        DisabledFill: =RGBA(0,0,0,0)
+        Fill: =Orange
+        Font: =
+        Height: =70
+        Size: =
+        Text: =Header.Text
+        Width: =Parent.Width
+        ZIndex: =1
+
